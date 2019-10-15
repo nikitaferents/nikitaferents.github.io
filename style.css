@@ -1,0 +1,276 @@
+body{
+	background-color: #dcf9fc;
+}
+#container{
+	width: 1250px;
+	margin: 0 auto;
+	background-color: #8fbaff;
+}
+#behold {
+	color: black;
+	width: 900px;
+	margin: 0 auto;
+	border: none;
+	font-family: 'Passero One';
+	font-size: 22px;
+	text-shadow: 0.5px -2px 0.5px #1355bf;
+}
+#The-pictures {
+	color: black;
+	width: 900px;
+	margin: 0 auto;
+	border: none;
+	font-family: 'Passero One';
+	font-size: 22px;
+	text-shadow: 0.5px -2px 1px #1355bf;
+}
+#The-videos {
+	color: black;
+	width: 900px;
+	margin: 0 auto;
+	border: none;
+	font-family: 'Passero One';
+	font-size: 22px;
+	text-shadow: 0.5px -2px 1px #1355bf;
+}
+#The-followme {
+	color: #06090;
+	width: 900px;
+	margin: 0 auto;
+	font-family: 'Passero One';
+	font-size: 25px;
+	text-shadow: 0.5px -2px 1px #1355bf;
+}
+header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #28d492;
+}
+
+header li {
+  float: left;
+}
+
+header li a {
+  display: block;
+  color: #01072b;
+  font-family: font-family: 'Nova Square';
+  font-size: 19px;
+  text-align: center;
+  padding: 14px 36px;
+  text-decoration: none;
+}
+header li a:hover {
+  background-color: #04916b;
+  color: black;
+}
+.followme-row-1 {
+	display: inline-block;
+	width: 170px;
+	vertical-align: center;
+	padding: 3px 3px;
+	margin-left: 388px;
+}
+.followme-row-2 {
+	display: inline-block;
+	width: 170px;
+	vertical-align: center;
+	padding: 3px 3px;
+	margin-left: 40px;
+}
+
+.img-facebook {
+	width: 165px;
+	height: 165px;
+	background-image: url(facebook.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	border: 1px outset #81f0b5;
+}
+.img-instagram {
+	width: 165px;
+	height: 165px;
+	background-image: url(instagram.png);
+	background-size: 110%;
+	background-repeat: no-repeat;
+	background-position: center;
+	border: 1px outset #81f0b5;
+}
+.img-instagram:hover {
+	background-size: 120%;
+}
+.img-facebook:hover {
+	background-size: 110%;
+}
+}
+#follow-me-dd {
+	margin-left: 10px;
+}
+#follow-me-p-1 {
+	color: black;
+	font-family: 'Mako';
+	font-size: 26px;
+	text-align: center;
+}
+#footer-d1 {
+  background-color: #28d492;
+}
+.footer-p-1 {
+  display: block;
+  color: #01072b;
+  font-family: font-family: 'Nova Square';
+  font-size: 17px;
+  text-align: right-side;
+  margin-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-decoration: none;
+}
+
+#home-fig-pictures {
+    background-color: #dd8bf0;
+	color: black;
+	width: 480px;
+	margin-left: 1px;
+	margin-bottom: 7px;
+	border: 3px outset pink;
+	font-family: 'Passero One';
+	font-size: 24px;
+}
+#home-fig-videos {
+    background-color: #dd8bf0;
+	color: black;
+	width: 480px;
+	margin-left: 205px;
+	margin-bottom: 7px;
+	border: 3px outset pink;
+	font-family: 'Passero One';
+	font-size: 24px;
+}
+#home-pictures-link {
+	display: inline-block;
+	width: 0 auto;
+	height: 0 auto;
+	margin-left: 20px;
+}
+#home-videos-link {
+	display: inline-block;
+	width: 0 auto;
+	height: 0 auto;
+	margin-left: 20px;
+}
+#home-w-r-i {
+	width: 485px;
+	margin-bottom: 40px;
+	border: 2px outset #b5bd93;
+}
+#home-vid {
+	width: 485px;
+	height: 485px;
+	margin-left: 205px;
+	border: 2px outset #f576c8;
+	margin-bottom: 40px;
+}
+figure {
+	margin: 0;
+}
+#img-fish-pic {
+	width: 524px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	border: 1px outset #a5e3e6;
+}
+#img-paint-pic {
+	width: 698px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	border: 1px outset #aa07db;
+}
+#img-portal-pic {
+	width: 431px;
+	margin-left: 10px;
+	margin-top: 0px;
+	margin-bottom: 200px;
+	border: 1px outset #f29d13;
+}
+#img-fracture-pic {
+	width: 790px;
+	margin-bottom: 200px;
+	margin-left: 2px;
+	border: 1px outset #ac0dd4;
+}
+#img-water-pic {
+	width: 600px;
+	margin-left: 10px;
+	margin-top: 5px;
+	border: 1px outset #859675;
+}
+#img-triangle-pic {
+	width: 1228px;
+	margin-left: 10px;
+	margin-top: -190px;
+	border: 1px outset #677573;
+}
+#img-neon-pic {
+	width: 622px;
+	margin-bottom: 189px;
+	border: 1px outset #5294ff;
+	margin-right: 5px;
+}
+#vid-in-pic-1 {
+	width: 623px;
+	margin-left: 617px;
+	margin-top: 0px;
+	border: 2px outset #3477eb;
+}
+#vid-in-pic-fig {
+	color: black;
+	width: 617px;
+	border: 3px outset #3477eb;
+	text-align: center;
+	font-family: 'Passero One';
+	font-size: 20px;
+	margin-left: 617px;
+	margin-top: -190px;
+}
+#vid-vid-1{
+	width: 588px;
+	margin-left: 20px;
+	border: 2px outset #f2e663;
+}
+#vid-vid-2{
+	width: 588px;
+	margin-left: 20px;
+	margin-top: 20px;
+	border: 2px outset #ed4ad5;
+}
+#vid-vid-3{
+	width: 588px;
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 2px outset #5294ff;
+}
+#vid-vid-4{
+	width: 588px;
+	margin-left: 20px;
+	border: 2px outset #ebf2f2;
+	margin-bottom: 20px;
+}
+#follow-me-p-3{
+	text-align: center;
+	font-family: 'Passero One';
+	font-size: 25px;
+	padding-bottom: 20px;
+}
+#v-v-1{
+	background-color: #28d492;
+	color: black;
+	width: 50px;
+	margin-left: 310px;
+	border: 3px outset #70cf92;
+	font-size: 30px;
+}
