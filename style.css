@@ -125,8 +125,7 @@ header li a:hover {
   font-size: 17px;
   text-align: right-side;
   margin-left: 10px;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 3px;
   text-decoration: none;
 }
 
@@ -171,7 +170,7 @@ header li a:hover {
 	width: 485px;
 	height: 485px;
 	margin-left: 205px;
-	border: 2px outset #f576c8;
+	border: 2px outset #5294ff;
 	margin-bottom: 40px;
 }
 figure {
@@ -224,7 +223,7 @@ figure {
 	width: 623px;
 	margin-left: 617px;
 	margin-top: 0px;
-	border: 2px outset #3477eb;
+	border: 0.5px outset #5294ff;
 }
 #vid-in-pic-fig {
 	color: black;
@@ -238,14 +237,15 @@ figure {
 }
 #vid-vid-1{
 	width: 588px;
+	height: 515;
 	margin-left: 20px;
-	border: 2px outset #f2e663;
+	border: 2px outset #5294ff;
 }
 #vid-vid-2{
 	width: 588px;
 	margin-left: 20px;
 	margin-top: 20px;
-	border: 2px outset #ed4ad5;
+	border: 2px outset #5294ff;
 }
 #vid-vid-3{
 	width: 588px;
@@ -257,20 +257,12 @@ figure {
 #vid-vid-4{
 	width: 588px;
 	margin-left: 20px;
-	border: 2px outset #ebf2f2;
+	border: 2px outset #5294ff;
 	margin-bottom: 20px;
 }
 #follow-me-p-3{
 	text-align: center;
 	font-family: 'Passero One';
 	font-size: 25px;
-	padding-bottom: 20px;
-}
-#v-v-1{
-	background-color: #28d492;
-	color: black;
-	width: 50px;
-	margin-left: 310px;
-	border: 3px outset #70cf92;
-	font-size: 30px;
+	padding-bottom: 25px;
 }
