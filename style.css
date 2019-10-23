@@ -55,8 +55,8 @@ header li {
 
 header li a {
   display: block;
-  color: #01072b;
-  font-family: font-family: 'Nova Square';
+  color: black;
+  font-family: 'Nova Square';
   font-size: 19px;
   text-align: center;
   padding: 14px 36px;
@@ -71,7 +71,7 @@ header li a:hover {
 	width: 170px;
 	vertical-align: center;
 	padding: 3px 3px;
-	margin-left: 388px;
+	margin-left: 318px;
 }
 .followme-row-2 {
 	display: inline-block;
@@ -80,6 +80,14 @@ header li a:hover {
 	padding: 3px 3px;
 	margin-left: 40px;
 }
+.followme-row-3 {
+	display: inline-block;
+	width: 170px;
+	vertical-align: center;
+	padding: 3px 3px;
+	margin-left: 40px;
+}
+
 
 .img-facebook {
 	width: 165px;
@@ -88,7 +96,7 @@ header li a:hover {
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: center;
-	border: 1px outset #81f0b5;
+	border: 1px outset #47aff5;
 }
 .img-instagram {
 	width: 165px;
@@ -97,7 +105,7 @@ header li a:hover {
 	background-size: 110%;
 	background-repeat: no-repeat;
 	background-position: center;
-	border: 1px outset #81f0b5;
+	border: 1px outset #47aff5;
 }
 .img-instagram:hover {
 	background-size: 120%;
@@ -265,4 +273,16 @@ figure {
 	font-family: 'Passero One';
 	font-size: 25px;
 	padding-bottom: 25px;
+}
+.img-vk{
+	width: 165px;
+	height: 165px;
+	background-image: url(vk.png);
+	background-size: 120%;
+	background-repeat: no-repeat;
+	background-position: center;
+	border: 1px outset #47aff5;
+}
+.img-vk:hover {
+	background-size: 130%;
 }
