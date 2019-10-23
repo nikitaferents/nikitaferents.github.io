@@ -9,6 +9,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   <link href='https://fonts.googleapis.com/css?family=Nova Square' rel='stylesheet'>
   <link href='https://fonts.googleapis.com/css?family=Passero One' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Aubrey' rel='stylesheet'>
   <style>
   .container {
   background-color: #8fbaff;
@@ -39,33 +40,34 @@ margin: -30px auto;
 text-align: center;
 }
 .navbar a {
- color: black !important;
+ color: #01072b !important;
 }
 .navbar a:hover {
+background-size:110% !important;
 background-color: #04916b !important;
   color: black !important;
 }
 #home-fig-pictures {
     background-color: #dd8bf0;
-	color: black;
+	color: #380112;
 	border: 3px outset pink;
 	font-family: 'Passero One';
 	font-size: 26px;
 	width: 595px;
 	margin-left: 13px;
+	margin-top: 3px;
+	margin-bottom: 3px;
 }
 #home-fig-videos {
     background-color: #dd8bf0;
-	color: black;
+	color: #380112;
 	border: 3px outset pink;
 	font-family: 'Passero One';
 	font-size: 26px;
 	width: 595px;
 	margin-left: 13px;
-}
-.img-rounded {
-width: 625px !important;
-	border: 2px outset #b5bd93 !important;
+	margin-top: 3px;
+	margin-bottom: 3px;
 }
 #home-vid {
 	width: 625px !important;
@@ -74,12 +76,12 @@ width: 625px !important;
 }
 .container-fluid {
 background-color: #8fbaff !important;
+border: 2px inset;
 }
-.footer-p-1 {
-  display: block;
-  color: #01072b;
-  font-family: font-family: 'Nova Square';
-  font-size: 18px;
+.panel-footer{
+  color: #01072b !important;
+  font-family: font-family: 'Nova Square' !important;
+  font-size: 18px !important;
   text-decoration: none;
   margin-left: 15px;
   margin-top: 10px;
@@ -89,6 +91,7 @@ background-color: #8fbaff !important;
   color: #01072b;
   font-family: font-family: 'Nova Square';
   font-size: 16px;
+  margin-left:70px;
   text-decoration: none;
   margin-top: 25px;
 }
@@ -124,8 +127,14 @@ background-color: #8fbaff;
 margin: 5px;
 }
 .carousel-inner {
-padding: auto !important;
+padding !important;
 }
+.h3-1 {
+  color: #01072b !important;
+  font-family: 'Aubrey';
+  font-size: 29px !important;
+  text-align: center;
+ }
   </style>
 </head>
 <body>
@@ -160,14 +169,14 @@ padding: auto !important;
   </ol>
   <div class="carousel-inner">
     <div class="item active">
-      <img class="img-rounded" src="fish.png" alt="fish in a lumb">
+      <img class="img-thumbnail" src="fish.png" alt="fish in a lumb">
     </div>
 
 	<div class="item">
-      <img class="img-rounded" src="triangle.png" alt="a big triangle in the mountains">
+      <img class="img-thumbnail" src="triangle.png" alt="a big triangle in the mountains">
     </div>
 	<div class="item">
-      <img class="img-rounded" src="Nekronom neon.png" alt="a word Nekronom in neon style">
+      <img class="img-thumbnail" src="Nekronom neon.png" alt="a word Nekronom in neon style">
     </div>
   </div>
 
@@ -187,11 +196,10 @@ padding: auto !important;
 						</figure></div>
 	<div class="col-sm-0"></div>
   </div>
-  </div>
   <div class="container-fluid-2">
   <footer>
 	<div class="row">
-		<div class="col-sm-5"><p class="footer-p-1">This site was created by Nikita Ferents and contains some of the works he deemed to be worthy making a website for.</p></div>
+		<div class="col-sm-5"><p class="panel-footer">This site was created by Nikita Ferents and contains some of the works he deemed to be worthy making a website for.</p></div>
 		<div class="col-sm-3"><p class="footer-p-2"><button type="button" class="btn btn-primary btn-md">© Nikita Ferents, None Rights Reserved</button></p></div>
 		<div class="col-sm-1"></div>
 		<div class="col-sm-3"><button type="button" class="default"><a href="https://www.facebook.com/nikita.ferents.9" target="_blank"><img class="social-media-1" src="facebook.jpg"</a>
